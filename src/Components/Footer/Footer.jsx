@@ -77,7 +77,7 @@ export default function Footer() {
                     <p className={styles.dev}>
                         Desenvolvido por{" "}
                         <a
-                        href="https://afonsodev.app.vercel.app"
+                        href="https://afonsodev.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={styles.link}
