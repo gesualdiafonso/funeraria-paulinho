@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "name": "Assistencia Funerária Completa.",
+        "list": [
+            "Traslado terres funerário por Km rodado",
+            "Traslado Nacional e Internacional.",
+            "Remoção Funerária.",
+            "Ornamentação Funerária",
+            "Urnas Padronizadas ou da escolha do Familiar.",
+            "Tanatopraxia.",
+            "Necromaquiagem."
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Assistencia Cremação",
+        "list": [
+            "Assitência Cremação para seu familiar.",
+            "Assitência Cremação para seu Pet",
+            "Traslado INternacional e Nacional.",
+            "Traslado por KM percorrido.",
+            "Remoção",
+            "Ornamentação.",
+            "Prestação de Serviços adicionais."
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Convênios de descotos Médicos.",
+        "list": [
+            "Convênio Médicos com Unimed Clinicas Itaí",
+            "Convênio Médico com a APS Muliconvênios, Itaí e Piraju.",
+            "Assistência de convênios Médicos em Itaí e Região.",
+            "Especialista Médicos Clinicos."
+        ]
+    },
+    {
+        "id": 1,
+        "name": "PREVER + (descontos).",
+        "list": [
+            "Descontos em Farmacia.",
+            "Descontos em Educativos.",
+            "Descontos em Clinícas Médicas.",
+            "Descontos em Clinícas Odontológicas.",
+            "Descontos em Medicina Veterinaria."
+        ]
+    }
+]

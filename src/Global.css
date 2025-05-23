@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --text: 'Noto Serif', serif;
+    --color-primary: #031763;
+    --color-secundary: #3dcdd6;
+    --background: #EFECE2;
+
+    /* Colores para links e btns */
+    --active: #00dcf1;
+    --btn-hover: #00a3b2;
+
+}
+a {
+    text-decoration: none;
+}
+ul, li{
+    list-style: none;
+    text-decoration: none;
+
+}
+body{
+    background-color: var(--background);
+    font-family: var(--text);
+}
+
+/* estilos header */
+.uk-navbar-container{
+    background-color: var(--color-primary) !important;
+}
+.uk-navbar-nav > li > a {
+    color: #fff;
+}
+.uk-navbar-nav > li > a:hover {
+    color: var(--btn-hover);
+}
+.logos{
+    width: 100%;
+}
+
+.logo-img img{
+    width: 100%;
+    height: auto;
+}
+.logo-letter {
+    font-size: 2rem;
+    font-family: var(--text);
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+/* MENU ICON (botão hambúrguer) */
+.uk-navbar-toggle {
+    color: white !important;
+}
+/* OFFCANVAS BAR */
+.uk-offcanvas-bar {
+    background-color: var(--color-primary);
+    color: #fff !important;
+    padding: 2rem;
+}
+.uk-offcanvas-close{
+    color: #fff !important;
+}
+/* LINKS DO MENU - CENTRADOS E MAIORES */
+.uk-nav.uk-nav-default {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.offcanvas-link {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #fff !important;
+    transition: color 0.3s ease;
+}
+
+.offcanvas-link:hover {
+    color: var(--btn-hover) !important;
+    text-decoration: underline;
+}
+  /* FECHAR COM ESTILO */
+.uk-offcanvas-close {
+    color: #fff !important;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+/* Estilos geral */
+.container{
+    background-color: #e4e1d6
+}
+.uk-card{
+    padding: 0;
+    max-width: 490px;
+    background-color: #fff;
+    border: 2px solid #A07D49;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 
+                0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    margin: 1rem;
+}
+.uk-card-header{
+    border-radius: 30px 30px 0 0;
+    border-top: 2px solid #A07D49;
+    border-right: 2px solid #A07D49;
+    border-left: 2px solid #A07D49;
+    background-color: #263058;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.uk-card-header h3{
+    color: #f4fcff;
+}

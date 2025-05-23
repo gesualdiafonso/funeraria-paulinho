@@ -1,0 +1,73 @@
+.contato{
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.boxContat{
+    margin: 0 auto;
+}
+.boxContat a{
+    font-size: 1.46rem;
+    color: #000;
+}
+.boxContat a:hover{
+    color: var(--color-secondary) !important;
+}
+.boxContat a:active{
+    color: var(--color-secondary) !important;
+}
+.boxDirect{
+    margin: 0 auto;
+}
+.boxDirect a{
+    font-size: 1.2rem;
+    color: #000;
+}
+.boxDirect a:hover{
+    color: var(--color-secondary) !important;
+}
+.boxDirect a:active{
+    color: var(--color-secondary) !important;
+}
+
+.inputCustom{
+    font-size: medium;
+    border-radius: 20px;
+    border: 2px #FFF;
+    background: #EFECE2;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.botaoCustom{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background: linear-gradient(0deg, #263EA2 0%, #3DCDD6 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    border: 0;
+    font-size: 1.3em;
+    color: #FFF;
+    margin: 1rem 0;
+}
+@media (min-width: 1024px){
+    .boxContat{
+        margin: 2rem auto;
+    }
+    .boxContat a{
+        font-size: 2rem;
+        margin: 0;
+    }
+    .boxDirect p{
+        font-size: 1.5rem;
+    }
+    .boxDirect a{
+        font-size: 1.5rem;
+        margin: 2rem 0;
+    }
+    .form{
+        border-left: #000 solid 2px;
+        padding: 1rem 2rem;
+    }
+}

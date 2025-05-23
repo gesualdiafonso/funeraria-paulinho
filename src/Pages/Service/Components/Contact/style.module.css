@@ -1,0 +1,55 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    margin: 3rem auto;
+}
+.imgContact{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.imgContact img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.cardContet{
+    width: 100%;
+    padding: 1rem;
+}
+.cardContet h2{
+    font-size: 2rem;
+    text-align: center;
+    font-family: var(--text);
+    font-weight: bold;
+}
+@media (min-width: 780px){
+    .card{
+        flex-direction: row;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .imgContact{
+        width: 100%;
+        height: 100%;
+    }
+    .imgContact img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .cardContet{
+        width: 100%;
+    }
+    .cardContet h2{
+        font-size: 2rem;
+        text-align: center;
+        font-family: var(--text);
+        font-weight: bold;
+    }
+}

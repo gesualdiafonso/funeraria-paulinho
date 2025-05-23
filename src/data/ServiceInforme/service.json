@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Assistencia Familiar",
+        "description": "Nosso Plano Assistencial Familiar oferece tranquilidade em tempos difíceis, assegurando que você e sua família recebam o cuidado necessário.", 
+        "informes": "O Plano Assistencial Familiar permite que você inclua até 7 beneficiários, sem restrição de idade. Esses beneficiários podem ser seus pais, mãe, avós, filhos(as), netos(as) e outros membros da família, garantindo que todos estejam cobertos quando mais precisarem.",
+        "image": "/assets/images/servico/assitenciafamiliar.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Crematório",
+        "description": "O plano crematórios temos em duas assistência, tanto para você e seu familiar como também para seu melhor amigo de estimação.", 
+        "informes": "O plano de cremação proporciona uma cerimonia mais íntima para despedida, sem comprometer e respeitando a relevância dos entes queridos. E também para nós, cada animal de estimação é unico, e perder um animal de estimação é uma experiência emocionalmente desafiadora.",
+        "image": "/assets/images/servico/planocrematorio.jpg"
+    },
+    {
+        "id": 3,
+        "name": "APS Multiconvenios",
+        "description": "Temos orgulho em anunciar aos nossos clientes e futuro clientes que contamos com a parceria da Aps Multiconvênios Médicos.", 
+        "informes": "A parceria da funerária do Paulinho com a APS Multiconvenios da a todos nossos clientes atendimento personalizado com especialistas e contamos com uma equipe pronta para auxiliar, responder dúvidas e garantir que suas necessidades de saúde sejam atendidas de maneira eficiente.",
+        "image": "/assets/images/servico/planoaps.jpg"
+    }
+]
